@@ -1,0 +1,424 @@
+/* general */
+body,
+.navbar,
+footer {
+    background-color: var(--color-background) !important;
+    color: var(--color-text) !important;
+}
+a {
+    color: var(--color-btn-link);
+}
+a:hover {
+    color: var(--color-btn-link-hover);
+    text-decoration: none;
+}
+.carousel-indicators li.active {
+    background-color: var(--color-btn-link);
+}
+
+/* header */
+.language-select .dropdown-menu .dropdown-item:hover,
+.language-select .dropdown-menu .dropdown-item:focus {
+    background-color: var(--color-btn-link) !important;
+}
+.breadcrumb a,
+.navbar-light .navbar-nav .nav-link {
+    color: var(--color-text);
+}
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: var(--color-btn-link-hover);
+}
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .nav-link.active {
+    color: var(--color-btn-link);
+}
+.navbar-head {
+    border-bottom-color: var(--color-line);
+}
+.navbar-toggler .icon-bar {
+    background-color: var(--color-btn-link);
+}
+.navbar .navbar-footer .footer a,
+.item-arrow {
+    color: var(--color-btn-link);
+}
+#dropdownMenuButton, #dropdownCurrencyButton,
+#dropdownCurrency .dropdown-menu,
+.language-select .dropdown-menu.show .dropdown-item {
+    background-color: var(--color-modal-background);
+    color: var(--color-text);
+    border-color: var(--color-line);
+}
+#dropdownCurrency .dropdown-item {
+    background-color: var(--color-modal-background);
+    color: var(--color-text);
+}
+.card-body .card-desc {
+    color: var(--color-text);
+}
+
+/* categories on main page */
+#cardsDesk .categoryName {
+    background-color: var(--color-category-background);
+    color: var(--color-text);
+}
+
+#cardsDesk .categoryItem img {
+    background-color: var(--color-block-hit);
+}
+
+
+
+/* footer */
+footer p {
+    color: var(--color-text);
+}
+footer a[href] {
+    color: var(--color-btn-link);
+}
+footer a[href]:hover {
+    color: var(--color-btn-link-hover);
+}
+footer #footer-address .fa-map-marker {
+    color: var(--color-btn-link);
+}
+footer > .container > .row,
+footer > .container-fluid > .row {
+    border-top-color: var(--color-line);
+}
+footer.footer .wfp-logo {
+    background-image: var(--logo-wfp);
+}
+
+/* extend block */
+.extend-block {
+    background-color: var(--color-block-hit);
+}
+.splide__arrow svg {
+    fill: var(--color-btn-link-hover);
+}
+.splide__arrow:hover svg {
+    fill: var(--color-btn-link);
+}
+.see-all > span > svg {
+    fill: var(--color-btn-link);
+}
+.see-all:hover > span > svg {
+    fill: var(--color-btn-link-hover);
+}
+
+
+/* sort and search */
+body #sortCardsDesk .form-inline .input-group {
+    background-color: var(--color-modal-background);
+}
+body #sortCardsDesk .form-inline .input-group .input-group-text,
+body #sortCardsDesk .form-inline .w-collapse-container .icon {
+    background-color: var(--color-modal-background);
+    color: var(--color-btn-link);
+}
+#sortCardsDesk .dropdown button {
+    background-color: var(--color-modal-background);
+    color: var(--color-text);
+}
+#sortCardsDesk .dropdown-menu {
+    background-color: var(--color-modal-background);
+    color: var(--color-text);
+}
+#sortCardsDesk .dropdown-item {
+    color: var(--color-text);
+}
+#sortCardsDesk .dropdown-item.active {
+    background-color: var(--color-btn-link);
+    color: var(--color-background);
+}
+#sortCardsDesk .dropdown-item:not(.active):hover,
+#sortCardsDesk .dropdown-item:not(.active):focus {
+    background-color: var(--color-dropdown-item-hover);
+    color: var(--color-text);
+}
+body #sortCardsDesk .dropdown-toggle::before {
+    background-image: var(--icon-filter);
+}
+#prodCard {
+    background-color: var(--color-modal-background);
+}
+#sortCardsDesk .catgories-icon {
+    background-image: var(--icon-categories);
+}
+#sortCardsDesk .search-icon {
+    background-image: var(--icon-search);
+}
+#sortCardsDesk .sort-icon {
+    background-image: var(--icon-filter);
+}
+#sortCardsDesk .w-collapse-container .content {
+    color: var(--color-text);
+    background: var(--color-modal-background);
+}
+#dropdownCategory.btn:after {
+    border-top-color: var(--color-btn-link);
+}
+
+
+
+/* modal */
+.modal-content {
+    background-color: var(--color-modal-background);
+}
+.modal button.close {
+    background-image: var(--icon-close);
+}
+
+
+/* categories */
+.categories .btn {
+    color: var(--color-text);
+}
+.btn-category.active,
+.btn-category:hover,
+.s2 .btn.btn-category.active,
+.s2 .btn.btn-category:hover {
+    border-color: var(--color-btn-link);
+    color: var(--color-btn-link);
+}
+.s2 .btn.btn-primary {
+    background-color: var(--color-btn-link);
+    border-color: var(--color-btn-link);
+}
+.s2 .btn.btn-primary:hover,
+.s2 .btn.btn-primary:focus,
+.s2 .btn.btn-primary:active,
+.s2 .btn.btn-primary.active {
+    background-color: var(--color-btn-link-hover);
+    border-color: var(--color-btn-link-hover);
+}
+
+@media (hover: none) and (pointer: coarse) {
+    .s2 .btn.btn-primary,
+    .s2 .btn.btn-primary:focus,
+    .s2 .btn.btn-primary:active,
+    .s2 .btn.btn-primary:hover {
+        background-color: var(--color-btn-link);
+        border-color: var(--color-btn-link);
+    }
+}
+
+body .customRadio .checkmark:after {
+    background-color: var(--color-btn-link);
+}
+
+/* product card */
+.card {
+    background-color: var(--color-modal-background);
+}
+.card:hover {
+    box-shadow: 0 4px 16px 0 var(--color-btn-link);
+}
+body .span-link {
+    color: var(--color-btn-link);
+}
+body .span-link:hover {
+    color: var(--color-btn-link-hover);
+}
+.shopping-basket {
+    background-image: var(--icon-shopping-basket);
+    background-color: var(--color-modal-background);
+}
+.card-body .card-basket {
+    background-image: var(--icon-to-basket);
+}
+
+
+/* cart */
+#empty-cart-message .empty-cart {
+    background-image: var(--icon-empty-cart);
+}
+
+/* checkout page */
+#checkout-container .checkoutFormPanel,
+#checkout-container .panel {
+    background-color: var(--color-modal-background);
+    border: none;
+}
+
+
+
+/* form */
+.s2 .form-group .control-label {
+    background-color: var(--color-modal-background);
+    color: var(--color-text);
+}
+.s2 .form-control,
+.s2 .form-control-static {
+    background-color: var(--color-modal-background);
+    color: var(--color-text);
+}
+.s2 .form-group.active .form-control {
+    border-color: var(--color-btn-link);
+}
+.s2 .form-group.active .control-label {
+    color: var(--color-btn-link);
+}
+.form-control-plaintext {
+    color: var(--color-text);
+}
+select {
+    background-image: var(--icon-chevron-down);
+}
+.amount-select {
+    background-image: var(--icon-input-number-arrow);
+}
+.quantity-button svg path {
+    fill: var(--color-btn-link);
+}
+.form-group.has-error .form-control,
+.form-group.has-error .help-block,
+.has-error .select2-container--shop .select2-selection {
+    border-color: var(--color-error);
+}
+.s2 .form-group .help-block {
+    color: var(--color-error);
+}
+body .table thead th,
+body .table tbody tr {
+    color: var(--color-text);
+}
+/* хак для раскраски автозаполнения */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s, color 5000s ease-in-out 0s;
+}
+
+
+/* goTop and Feedback */
+body #goToTop {
+    background-color: var(--color-btn-link);
+    box-shadow: 0 4px 16px 0 var(--color-btn-link-hover);
+}
+body #goToTop .chevron-up {
+    background-image: var(--icon-chevron-up);
+}
+body #feedbackPanel {
+    background-color: var(--color-modal-background);
+}
+body #feedbackPanel .panel-header,
+body #feedbackPanel .feedbackSended .sub-title {
+    color: var(--color-text);
+}
+body #feedbackPanel .feedbackSended .title {
+    color: var(--color-btn-link);
+}
+body #feedbackWidget .btn-feedback{
+    background-color: var(--color-btn-link);
+    box-shadow: 0 4px 16px 0 var(--color-btn-link-hover);
+}
+
+
+/* Select2 */
+.select2-container--shop .select2-selection {
+    background-color: var(--color-modal-background);
+    color: var(--color-text);
+}
+.select2-dropdown {
+    background-color: var(--color-modal-background) !important;
+    color: var(--color-text);
+}
+.select2-results__option {
+    color: var(--color-text);
+}
+.select2-container--shop .select2-selection--single .select2-selection__arrow b {
+    background-image: var(--icon-chevron-down);
+}
+.select2-search--dropdown .select2-search__field {
+    background-color: var(--color-modal-background) !important;
+    color: var(--color-text);
+}
+.select2-container--shop .select2-dropdown .select2-results__option[aria-selected=true] {
+    background-color: var(--color-btn-link-hover);
+    color: var(--color-background);
+}
+.select2-container--shop .select2-results__option--highlighted[aria-selected=false] {
+    background-color: var(--color-dropdown-item-hover);
+    color: var(--color-text);
+}
+.select2-container--shop.select2-container--disabled .select2-selection,
+.select2-container--shop.select2-container--disabled.select2-container--focus .select2-selection {
+    background-color: var(--color-modal-background);
+}
+
+/* scrollbar */
+#modalCart .modal-body::-webkit-scrollbar-thumb,
+#modalCheckout .modal-body::-webkit-scrollbar-thumb {
+    background-color: var(--color-btn-link);
+}
+
+
+/* LOADER */
+.cart-loader .dot-floating,
+.cart-loader .dot-floating::before,
+.cart-loader .dot-floating::after {
+    background-color: var(--color-btn-link);
+    color: var(--color-btn-link);
+}
+
+
+/* Info modal */
+#modalInfo .info-title-img.img-approved {
+    background-image: var(--icon-info-approve)
+}
+#modalInfo .info-title-img.img-pending {
+    background-image: var(--icon-info-pending);
+}
+
+/* preview */
+.dotted {
+    border-color: var(--color-line);
+}
+
+/* product page */
+#terms > div > a {
+    color: var(--color-text);
+}
+.fancybox-bg {
+    background: var(--color-modal-background);
+}
+
+/* SVG */
+.cls-svg {
+    stroke: var(--color-btn-link);
+}
+.svg-stroke {
+    stroke: var(--color-btn-link);
+}
+.svg-fill {
+    fill: var(--color-btn-link);
+}
+
+/* slider */
+.fancybox-bg {
+    background: var(--color-modal-background);
+}
+.splide__pagination__page.is-active {
+    background-color: var(--color-btn-link);
+}
+
+/* mod style button */
+.mod-item-btn {
+    color: var(--color-text);
+    border-color: var(--color-line);
+    background-color: var(--color-modal-background);
+}
+.mod-item-btn.active {
+    color:  var(--color-btn-link);
+    border-color: var(--color-btn-link);
+}
+.mod-item-btn:not(.modEnded):hover {
+    color:  var(--color-btn-link);
+    border-color: var(--color-btn-link);
+}
