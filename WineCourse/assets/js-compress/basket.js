@@ -7,7 +7,7 @@
 
         $('#checkout').on('click', function () {
 
-            window.location.href = '/uk/checkout';
+            window.location.href = '/checkout';
 
         });
 
