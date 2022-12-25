@@ -45,7 +45,7 @@
             }
 
             let tmpProdCard = `            <div class="col mb-4" data-category="{categoryId}">
-                <a href="https://winecourse.wayforpay.shop/prod/{prodId}" class="card w-100 m-0 toBasket"
+                <a href="https://wayforpay-test.webflow.io/prod/{prodId}" class="card w-100 m-0 toBasket"
                      data-id="{prodId}"
                      data-name="{prodName}"
                      data-price="{prodPrice}"
